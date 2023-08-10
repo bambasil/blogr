@@ -1,0 +1,17 @@
+.primary,
+.secondary {
+  border-radius: 30px;
+  padding: 10px 20px;
+  /* padding:10px 20px 2px 20px; */
+  border: solid white;
+}
+
+.primary {
+  background-color: white;
+  color: hsl(356, 100%, 66%);
+}
+
+.secondary {
+  background-color: transparent;
+  color: white;
+}

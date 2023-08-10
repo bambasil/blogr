@@ -1,0 +1,48 @@
+.stateart-display {
+  background: hsl(237, 17%, 21%);
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-image: url("../assets/bg-pattern-circles.png");
+  background-repeat: no-repeat;
+  background-position: -55% 92% ;
+}
+
+.typography {
+  padding-right: 20px;
+}
+
+.stateart-p {
+  color: white;
+}
+
+.stateart-h1 {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .stateart-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-position: 50% 130%;
+   
+    
+  }
+
+  .typography {
+    padding-left: 20px;
+    padding-bottom: 50px;
+  }
+
+  .phone-size {
+    width: 100%;
+    height: 100%;
+    margin-top: -200px;
+  }
+}

@@ -1,0 +1,40 @@
+.footer-display {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: hsl(240, 10%, 16%);
+  display: flex;
+  justify-content: space-evenly;
+  border-top-right-radius: 90px;
+}
+
+.main-header {
+  color: white;
+  margin: 0;
+}
+
+.footer-header {
+  color: white;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.footer-p {
+  color: hsl(240, 2%, 79%);
+}
+
+@media (max-width: 400px) {
+  .footer-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .main-header {
+    padding-bottom: 50px;
+  }
+}
+
+/* 761px  below  is for mobile */
+/* 1100px  below is for tablets*/
+/* 1600px below is for desktops */

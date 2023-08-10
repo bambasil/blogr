@@ -1,0 +1,125 @@
+.blogr-container {
+  background: hsl(355, 100%, 74%);
+  color: white;
+  background-image: url("../assets/bg-pattern-intro-mobile.png");
+  background-position: 38% 40%;
+  height: 350px;
+  border-bottom-left-radius: 100px;
+}
+
+.blogr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.blogr-list {
+  font-size: 10px;
+  display: flex;
+  gap: 20px;
+  /* padding-right: 250px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.blogr-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogr-h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.blogr-p {
+  margin: 0;
+  margin-bottom: 40px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-down-icon {
+  transform: rotate(90deg);
+}
+
+.burger-icon {
+  display: none;
+  z-index: 100;
+}
+
+.mobile-navbar {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.mobile-navbar li {
+  margin-bottom: 20px;
+}
+
+.hidden-two {
+  opacity: 0;
+  transition: 0.5s opacity ease-in-out;
+  /* display: none; */
+}
+
+.close-icon-hidden{
+  display:none;
+}
+
+
+@media (max-width: 800px) {
+  .burger-icon {
+    display: flex;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  /* X icon is only being hidden when in mobile version */
+
+  .blogr-list-two {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .close-icon {
+    z-index: 100;
+  }
+}
+
+.transition {
+  transition: 0.3s opacity ease-in-out;
+}
